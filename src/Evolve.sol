@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity 0.8.12;
+pragma solidity 0.8.13;
 
 import {ERC20} from "@solmate/tokens/ERC20.sol";
 
@@ -62,7 +62,7 @@ contract Evolve is ERC20 {
 
   /// :::::::::::::::::::::  CONSTRUCTOR  ::::::::::::::::::::: ///
 
-  constructor() ERC20("Evolve", "VOLV", 18) {
+  constructor() ERC20("Evolve", "VOLV", 0) {
     warden = msg.sender;
     MAXIMUM_SUPPLY = 1_000_000_000;
   }

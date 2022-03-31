@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity 0.8.12;
+pragma solidity 0.8.13;
 
 import {Evolve} from "../Evolve.sol";
 import {DSTestPlus} from "./utils/DSTestPlus.sol";
@@ -20,7 +20,7 @@ contract EvolveTest is DSTestPlus {
     function invariantMetadata() public {
         assertEq(evolve.name(), "Evolve");
         assertEq(evolve.symbol(), "VOLV");
-        assertEq(evolve.decimals(), 18);
+        assertEq(evolve.decimals(), 0);
     }
 
     function testMint(address user) public {
