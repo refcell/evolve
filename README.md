@@ -6,7 +6,7 @@ An On-Chain Experimentation Hub.
 
 ## Overview
 
-..
+This repo contains infrastructure for an on-chain experimentation hub. The entrypoint is [`Evolve.sol`](./src/Evolve.sol), an ERC20 to orchestrate protocol governance.
 
 ## Blueprint
 
