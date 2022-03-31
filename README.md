@@ -1,22 +1,22 @@
-<img align="right" width="150" height="150" top="100" src="./assets/readme.jpg">
+<img align="right" width="150" height="150" top="100" src="./assets/evolve.svg">
 
-# femplate • [![tests](https://github.com/abigger87/femplate/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/femplate/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/femplate/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/femplate/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/femplate)  ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/femplate)
+# evolve • [![tests](https://github.com/abigger87/evolve/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/evolve/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/evolve/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/evolve/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/evolve)  ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/evolve)
 
 
 Robust Template for Foundry Projects.
 
 ## Getting Started
 
-Click `use this template` on [Github](https://github.com/abigger87/femplate) to create a new repository with this repo as the initial state.
+Click `use this template` on [Github](https://github.com/abigger87/evolve) to create a new repository with this repo as the initial state.
 
 Or, if your repo already exists, run:
 ```sh
-forge init --template https://github.com/abigger87/femplate
+forge init --template https://github.com/abigger87/evolve
 git submodule update --init --recursive
 forge install
 ```
 
-Run `make rename` to rename all instances of `femplate` with the name of your project/repository.
+Run `make rename` to rename all instances of `evolve` with the name of your project/repository.
 
 ## Blueprint
 
@@ -107,7 +107,7 @@ Install DappTools using their [installation guide](https://github.com/dapphub/da
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/femplate/blob/master/LICENSE)
+[AGPL-3.0-only](https://github.com/abigger87/evolve/blob/master/LICENSE)
 
 ## Acknowledgements
 
