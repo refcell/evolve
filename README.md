@@ -21,17 +21,29 @@ src
 └─ Evolve — The main hub erc20 token
 ```
 
+## Installation
+
+To install with [Foundry](https://github.com/gakonst/foundry):
+
+```
+forge install abigger87/evolve
+```
+
+To install with [DappTools](https://github.com/dapphub/dapptools):
+
+```
+dapp install abigger87/evolve
+```
+
 ## Development
 
 
-**Setup**
+**Setup & Dependencies**
 ```bash
 make
-# OR #
-make setup
 ```
 
-**Building**
+**Compilation**
 ```bash
 make build
 ```
@@ -75,11 +87,9 @@ foundryup
 
 ### Writing Tests with Foundry
 
-With [Foundry](https://gakonst.xyz), tests are written in Solidity! 🥳
+With [Foundry](https://github.com/gakonst/foundry), tests are written in Solidity! 🥳
 
 Create a test file for your contract in the `src/tests/` directory.
-
-For example, [`src/Greeter.sol`](./src/Greeter.sol) has its test file defined in [`./src/tests/Greeter.t.sol`](./src/tests/Greeter.t.sol).
 
 To learn more about writing tests in Solidity for Foundry and Dapptools, reference Rari Capital's [solmate](https://github.com/Rari-Capital/solmate/tree/main/src/test) repository largely created by [@transmissions11](https://twitter.com/transmissions11).
 
@@ -88,11 +98,6 @@ To learn more about writing tests in Solidity for Foundry and Dapptools, referen
 Using [foundry.toml](./foundry.toml), Foundry is easily configurable.
 
 For a full list of configuration options, see the Foundry [configuration documentation](https://github.com/gakonst/foundry/blob/master/config/README.md#all-options).
-
-### Install DappTools
-
-Install DappTools using their [installation guide](https://github.com/dapphub/dapptools#installation).
-
 
 ## License
 
